@@ -13,7 +13,7 @@ Should work with all i* CPUs that are newer or equal than 6th gen.
 
 Tested for i7 7th gen CPU on XPS 15 9560. It seems to be stable with around -100mV for both CPU and GPU.
 
-The script is based on an [tutorial which reverse engineered the MSR configuration used by the regulators](https://github.com/mihic/linux-intel-undervolt). There
+The script is based on an [tutorial in which the MSR configuration used by the regulators were reverse engineered](https://github.com/mihic/linux-intel-undervolt). There
 is no official documentation available, so this is all based on guess-work and reverse engineering.
 
 Installation
