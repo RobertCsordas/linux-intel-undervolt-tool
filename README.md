@@ -22,7 +22,7 @@ Installation
 Run ./install.sh as root. This will set up the config file, the systemd scripts and the script itself. **It also enables systemd startup**.
 Edit /etc/undervolt.json and fill your values (in negative millivolts).
 
-**Please always test your values** just by running sudo undervolt -cpu <value> -gpu <value> **before writing them to the config file, as if
+**Please always test your values** just by running sudo undervolt -cpu \<value\> -gpu \<value\> **before writing them to the config file, as if
 may result in an unbootable system** if the voltages are switched to unstable value during boot time.
 
 Requirements
